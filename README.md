@@ -10,4 +10,4 @@ input[type=number]::-webkit-outer-spin-button {
 }
 ```
 
-![website](http://zsiva.github.io/css-tricks)
+Website: http://zsiva.github.io/css-tricks
