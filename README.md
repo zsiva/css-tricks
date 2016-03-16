@@ -9,5 +9,3 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0;
 }
 ```
-
-<a href="http://zsiva.github.io/css-tricks" target="_blank">Website</a>
