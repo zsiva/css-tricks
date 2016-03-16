@@ -10,4 +10,6 @@ input[type=number]::-webkit-outer-spin-button {
 }
 ```
 
-![user](https://github.com/zsiva/css-tricks/images/user.jpg)
+![user](https://github.com/zsiva/css-tricks/blob/master/images/user.jpg)
+
+![user2](https://github.com/zsiva/css-tricks/images/user.jpg?raw=true "Optional Title")
