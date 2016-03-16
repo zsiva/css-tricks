@@ -28,3 +28,32 @@
     border-radius: 1.5em;
     border-right: 1.5em solid transparent;
 }
+
+/* Align content */
+.align-flex {
+    display: flex;
+	align-items: center;
+	height: 10em;
+	background: #02AACE;
+    width: 300px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.align-css3 {
+	height: 100px;
+	background: #02AACE;
+    color: #fff;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.align-css3 .content {
+    text-align: center;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
