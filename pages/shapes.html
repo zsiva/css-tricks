@@ -4,21 +4,20 @@
             <h1>Shapes</h1>
             <div class="row">
                 <div class="col-xs-12">
-                    <h5>Arrow up</h5>
                     <div class="row">
                         <div class="col-xs-4">
+                            <h5>Arrow up</h5>
                             <div class="arrow-up"></div>
                         </div>
                         <div class="col-xs-8">
 <code>
 <pre>
-
 .arrow-up {
     width: 0;
     height: 0;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    border-bottom: 50px solid #02AACE;
+    border-bottom: 50px solid #F00;
 }
 </pre>
 </code>
@@ -29,12 +28,12 @@
                 <div class="col-xs-12">
                     <div class="row">
                         <div class="col-xs-4">
+                            <h5>Circle</h5>
                             <div class="circle"></div>
                         </div>
                         <div class="col-xs-8">
-<pre>
 <code>
-
+<pre>
 .circle {
     width: 50px;
     height: 50px;
@@ -43,8 +42,37 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
 }
-</code>
 </pre>
+</code>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <h5>Pacman</h5>
+                            <div class="pacman"></div>
+                        </div>
+                        <div class="col-xs-8">
+<code>
+<pre>
+.pacman {
+    position: relative;
+    width:50px;
+    height:50px;
+}
+.pacman:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1.5em solid #ffcc00;
+    border-radius: 1.5em;
+    border-right: 1.5em solid transparent;
+}
+</pre>
+</code>
+
                         </div>
                     </div>
                 </div>

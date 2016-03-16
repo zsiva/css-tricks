@@ -3,7 +3,7 @@
     height: 0;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    border-bottom: 50px solid #02AACE;
+    border-bottom: 50px solid #F00;
 }
 .circle {
     width: 50px;
@@ -12,4 +12,19 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
+}
+
+.pacman {
+    position: relative;
+    width:50px;
+    height:50px;
+}
+.pacman:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1.5em solid #ffcc00;
+    border-radius: 1.5em;
+    border-right: 1.5em solid transparent;
 }
